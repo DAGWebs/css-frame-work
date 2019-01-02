@@ -1,0 +1,472 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #c9c9c9;
+}
+
+a:hover {
+	transition: .9s;
+	text-decoration: underline;
+	font-weight: bold;
+	color: darkgray;
+}
+
+a.text-purple:hover {
+	color: purple;
+}
+
+a.text-dark:hover {
+	color: #222;
+}
+
+p {
+	color: #222222;
+}
+
+/*===================================
+=            text styles            =
+===================================*/
+
+/* TEXT ALIGNMENT*/
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/*TEXT COLORS*/
+
+.text-danger {
+	color: #F44336;
+}
+
+.text-dark {
+	color: #3b3a36;
+
+}
+
+.text-gray {
+	color: #c9c9c9;
+}
+
+.text-purple {
+	color: #9068be;
+}
+
+.text-light {
+	color: #e1e8f0;
+}
+
+.text-success {
+	color: #76ff03;
+}
+
+/*BACKGROUND*/
+
+.bg-danger {
+	background: #F44336;
+	color: #fff;
+}
+
+.bg-dark {
+	background: #3b3a36;
+	color: #e1e8f0;
+
+}
+
+.bg-gray {
+	background: #c9c9c9;
+	color: #3b3a36;
+}
+
+.bg-purple {
+	background: #9068be;
+	color: #fff;
+}
+
+.bg-light {
+	background: #e1e8f0;
+	color: #3b3a36;
+
+}
+
+.bg-success {
+	background: #76ff03;
+	color: #fff;
+}
+
+/*TEXT BOLD*/
+
+.text-bold {
+	font-weight: bold;
+}
+/*=====  End of text styles  ======*/
+
+/*===================================
+=            Button style           =
+===================================*/
+
+.btn {
+	padding: 10px;
+	border: 2px solid #c9c9c9;
+	opacity: .5;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.btn-md {
+	padding: 15px;
+	border: 2px solid #c9c9c9;
+	opacity: .5;
+	text-decoration: none;
+	width: 100px;
+	font-weight: bold;
+}
+
+.btn-lg {
+	padding: 25px;
+	border: 2px solid #c9c9c9;
+	opacity: .5;
+	text-decoration: none;
+	width: 200px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	transition: .5s;
+	opacity: 1;
+}
+
+.btn-md:hover {
+	cursor: pointer;
+	transition: .5s;
+	opacity: 1;
+}
+
+.btn-lg:hover {
+	cursor: pointer;
+	transition: .5s;
+	opacity: 1;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
+.btn-danger {
+	color: #F44336;
+	border: 2px solid #F44336;
+}
+
+.btn-dark {
+	color: #3b3a36;
+	border: 2px solid #3b3a36;
+
+}
+
+.btn-gray {
+	color: #c9c9c9;
+	border: 2px solid #c9c9c9;
+}
+
+.btn-purple {
+	color: #9068be;
+	border: 2px solid #9068be;
+}
+
+.btn-light {
+	color: #e1e8f0;
+	border: 2px solid #e1e8f0;
+}
+
+.btn-success {
+	color: #76ff03;
+	border: 2px solid #76ff03;
+}
+
+/*TEXT BOLD*/
+
+.text-bold {
+	font-weight: bold;
+}
+
+/*=====  End of text styles  ======*/
+
+.col-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.col-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col-30 {
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+label {
+	display: inline;
+}
+
+.col-spacing-1 {
+	grid-gap: 1em;
+}
+
+.col-spacing-2 {
+	grid-gap: 2em;
+}
+
+/*=============================
+=            forms            =
+=============================*/
+.form {
+	padding: 20px;
+	color: #e1e8f0;
+	background: #3b3a36;
+}
+
+.form-purple {
+	padding: 20px;
+	color: #e1e8f0;
+	background: #3b3a36;
+}
+
+.form-dark {
+	padding: 20px;
+	color: #3b3a36;
+	background: #e1e8f0;
+}
+
+.form-30 {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.form-50 {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form-70 {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.form input {
+	width: -webkit-calc(100% - 25px);
+    width:    -moz-calc(100% - 25px);
+    width:         calc(100% - 25px);
+	height: 45px;
+	font-size: 35px;
+	color: #c9c9c9;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form input:focus {
+	outline: #c9c9c9;
+}
+
+.form textarea {
+	width: -webkit-calc(100% - 25px);
+    width:    -moz-calc(100% - 25px);
+    width:         calc(100% - 25px);
+	height: 200px;
+	font-size: 35px;
+	color: #c9c9c9;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form textarea:focus {
+	outline: #c9c9c9;
+}
+
+.form select {
+	width:100%;
+	height: 45px;
+	font-size: 35px;
+	color: #c9c9c9;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form-purple input {
+	width: -webkit-calc(100% - 25px);
+    width:    -moz-calc(100% - 25px);
+    width:         calc(100% - 25px);
+	height: 45px;
+	font-size: 35px;
+	border: 1px solid #9068be;
+	color: #9068be;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form-purple input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9068be;
+}
+.form-purple input::-moz-placeholder { /* Firefox 19+ */
+  color: #9068be;
+}
+.form-purple input:-ms-input-placeholder { /* IE 10+ */
+  color: #9068be;
+}
+.form-purple input:-moz-placeholder { /* Firefox 18- */
+  color: #9068be;
+}
+
+.form-purple textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9068be;
+}
+.form-purple textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #9068be;
+}
+.form-purple textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #9068be;
+}
+.form-purple textarea:-moz-placeholder { /* Firefox 18- */
+  color: #9068be;
+}
+
+.form-purple input:focus {
+	outline: #9068be;
+}
+
+.form-purple textarea {
+	width: -webkit-calc(100% - 25px);
+    width:    -moz-calc(100% - 25px);
+    width:         calc(100% - 25px);
+	height: 200px;
+	font-size: 35px;
+	color: #9068be;
+	border: 1px solid #9068be;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form-purple textarea:focus {
+	outline: #9068be;
+}
+
+.form-purple select {
+	width:100%;
+	height: 45px;
+	border: 1px solid #9068be;
+	font-size: 35px;
+	color: #9068be;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form-dark input {
+	width: -webkit-calc(100% - 25px);
+    width:    -moz-calc(100% - 25px);
+    width:         calc(100% - 25px);
+	height: 45px;
+	font-size: 35px;
+	border: 1px solid #3b3a36;
+	color: #9068be;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form-dark input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3b3a36;
+}
+.form-dark input::-moz-placeholder { /* Firefox 19+ */
+  color: #3b3a36;
+}
+.form-dark input:-ms-input-placeholder { /* IE 10+ */
+  color: #3b3a36;
+}
+.form-dark input:-moz-placeholder { /* Firefox 18- */
+  color: #3b3a36;
+}
+
+.form-dark textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3b3a36;
+}
+.form-dark textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #3b3a36;
+}
+.form-dark textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #3b3a36;
+}
+.form-dark textarea:-moz-placeholder { /* Firefox 18- */
+  color: #3b3a36;
+}
+
+.form-dark input:focus {
+	outline: #3b3a36;
+}
+
+.form-dark textarea {
+	width: -webkit-calc(100% - 25px);
+    width:    -moz-calc(100% - 25px);
+    width:         calc(100% - 25px);
+	height: 200px;
+	font-size: 35px;
+	color: #3b3a36;
+	border: 1px solid #3b3a36;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.form-dark textarea:focus {
+	outline: #3b3a36;
+}
+
+.form-dark select {
+	width:100%;
+	height: 45px;
+	border: 1px solid #3b3a36;
+	font-size: 35px;
+	color: #3b3a36;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	.form-30 {
+		width: 100%;
+	}
+
+	.form-50 {
+		width: 100%;
+	}
+
+	.form-70 {
+		width: 100%;
+	}
+}
+
+/*=====  End of forms  ======*/
